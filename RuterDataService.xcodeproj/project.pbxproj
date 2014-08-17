@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C73D569519A1028400A2CFB6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C73D569419A1028400A2CFB6 /* Foundation.framework */; };
+		C73D569719A1028400A2CFB6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C73D569619A1028400A2CFB6 /* CoreGraphics.framework */; };
+		C73D569919A1028400A2CFB6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C73D569819A1028400A2CFB6 /* UIKit.framework */; };
+		C73D569F19A1028400A2CFB6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C73D569D19A1028400A2CFB6 /* InfoPlist.strings */; };
+		C73D56A119A1028400A2CFB6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C73D56A019A1028400A2CFB6 /* main.m */; };
+		C73D56A519A1028400A2CFB6 /* RDSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C73D56A419A1028400A2CFB6 /* RDSAppDelegate.m */; };
+		C73D56A719A1028400A2CFB6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C73D56A619A1028400A2CFB6 /* Images.xcassets */; };
+		C73D56AE19A1028400A2CFB6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C73D56AD19A1028400A2CFB6 /* XCTest.framework */; };
+		C73D56AF19A1028400A2CFB6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C73D569419A1028400A2CFB6 /* Foundation.framework */; };
+		C73D56B019A1028400A2CFB6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C73D569819A1028400A2CFB6 /* UIKit.framework */; };
+		C73D56B819A1028400A2CFB6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C73D56B619A1028400A2CFB6 /* InfoPlist.strings */; };
+		C73D56BA19A1028400A2CFB6 /* RuterDataServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C73D56B919A1028400A2CFB6 /* RuterDataServiceTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C73D56B119A1028400A2CFB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C73D568919A1028400A2CFB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C73D569019A1028400A2CFB6;
+			remoteInfo = RuterDataService;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C73D569119A1028400A2CFB6 /* RuterDataService.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RuterDataService.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C73D569419A1028400A2CFB6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C73D569619A1028400A2CFB6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C73D569819A1028400A2CFB6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C73D569C19A1028400A2CFB6 /* RuterDataService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RuterDataService-Info.plist"; sourceTree = "<group>"; };
+		C73D569E19A1028400A2CFB6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C73D56A019A1028400A2CFB6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C73D56A219A1028400A2CFB6 /* RuterDataService-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RuterDataService-Prefix.pch"; sourceTree = "<group>"; };
+		C73D56A319A1028400A2CFB6 /* RDSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RDSAppDelegate.h; sourceTree = "<group>"; };
+		C73D56A419A1028400A2CFB6 /* RDSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RDSAppDelegate.m; sourceTree = "<group>"; };
+		C73D56A619A1028400A2CFB6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C73D56AC19A1028400A2CFB6 /* RuterDataServiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RuterDataServiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C73D56AD19A1028400A2CFB6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C73D56B519A1028400A2CFB6 /* RuterDataServiceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RuterDataServiceTests-Info.plist"; sourceTree = "<group>"; };
+		C73D56B719A1028400A2CFB6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C73D56B919A1028400A2CFB6 /* RuterDataServiceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuterDataServiceTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C73D568E19A1028400A2CFB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C73D569719A1028400A2CFB6 /* CoreGraphics.framework in Frameworks */,
+				C73D569919A1028400A2CFB6 /* UIKit.framework in Frameworks */,
+				C73D569519A1028400A2CFB6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C73D56A919A1028400A2CFB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C73D56AE19A1028400A2CFB6 /* XCTest.framework in Frameworks */,
+				C73D56B019A1028400A2CFB6 /* UIKit.framework in Frameworks */,
+				C73D56AF19A1028400A2CFB6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C73D568819A1028400A2CFB6 = {
+			isa = PBXGroup;
+			children = (
+				C73D569A19A1028400A2CFB6 /* RuterDataService */,
+				C73D56B319A1028400A2CFB6 /* RuterDataServiceTests */,
+				C73D569319A1028400A2CFB6 /* Frameworks */,
+				C73D569219A1028400A2CFB6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C73D569219A1028400A2CFB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C73D569119A1028400A2CFB6 /* RuterDataService.app */,
+				C73D56AC19A1028400A2CFB6 /* RuterDataServiceTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C73D569319A1028400A2CFB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C73D569419A1028400A2CFB6 /* Foundation.framework */,
+				C73D569619A1028400A2CFB6 /* CoreGraphics.framework */,
+				C73D569819A1028400A2CFB6 /* UIKit.framework */,
+				C73D56AD19A1028400A2CFB6 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C73D569A19A1028400A2CFB6 /* RuterDataService */ = {
+			isa = PBXGroup;
+			children = (
+				C73D56A319A1028400A2CFB6 /* RDSAppDelegate.h */,
+				C73D56A419A1028400A2CFB6 /* RDSAppDelegate.m */,
+				C73D56A619A1028400A2CFB6 /* Images.xcassets */,
+				C73D569B19A1028400A2CFB6 /* Supporting Files */,
+			);
+			path = RuterDataService;
+			sourceTree = "<group>";
+		};
+		C73D569B19A1028400A2CFB6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C73D569C19A1028400A2CFB6 /* RuterDataService-Info.plist */,
+				C73D569D19A1028400A2CFB6 /* InfoPlist.strings */,
+				C73D56A019A1028400A2CFB6 /* main.m */,
+				C73D56A219A1028400A2CFB6 /* RuterDataService-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C73D56B319A1028400A2CFB6 /* RuterDataServiceTests */ = {
+			isa = PBXGroup;
+			children = (
+				C73D56B919A1028400A2CFB6 /* RuterDataServiceTests.m */,
+				C73D56B419A1028400A2CFB6 /* Supporting Files */,
+			);
+			path = RuterDataServiceTests;
+			sourceTree = "<group>";
+		};
+		C73D56B419A1028400A2CFB6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C73D56B519A1028400A2CFB6 /* RuterDataServiceTests-Info.plist */,
+				C73D56B619A1028400A2CFB6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C73D569019A1028400A2CFB6 /* RuterDataService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C73D56BD19A1028400A2CFB6 /* Build configuration list for PBXNativeTarget "RuterDataService" */;
+			buildPhases = (
+				C73D568D19A1028400A2CFB6 /* Sources */,
+				C73D568E19A1028400A2CFB6 /* Frameworks */,
+				C73D568F19A1028400A2CFB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RuterDataService;
+			productName = RuterDataService;
+			productReference = C73D569119A1028400A2CFB6 /* RuterDataService.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C73D56AB19A1028400A2CFB6 /* RuterDataServiceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C73D56C019A1028400A2CFB6 /* Build configuration list for PBXNativeTarget "RuterDataServiceTests" */;
+			buildPhases = (
+				C73D56A819A1028400A2CFB6 /* Sources */,
+				C73D56A919A1028400A2CFB6 /* Frameworks */,
+				C73D56AA19A1028400A2CFB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C73D56B219A1028400A2CFB6 /* PBXTargetDependency */,
+			);
+			name = RuterDataServiceTests;
+			productName = RuterDataServiceTests;
+			productReference = C73D56AC19A1028400A2CFB6 /* RuterDataServiceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C73D568919A1028400A2CFB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RDS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Cameron Lowell Palmer";
+				TargetAttributes = {
+					C73D56AB19A1028400A2CFB6 = {
+						TestTargetID = C73D569019A1028400A2CFB6;
+					};
+				};
+			};
+			buildConfigurationList = C73D568C19A1028400A2CFB6 /* Build configuration list for PBXProject "RuterDataService" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C73D568819A1028400A2CFB6;
+			productRefGroup = C73D569219A1028400A2CFB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C73D569019A1028400A2CFB6 /* RuterDataService */,
+				C73D56AB19A1028400A2CFB6 /* RuterDataServiceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C73D568F19A1028400A2CFB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C73D569F19A1028400A2CFB6 /* InfoPlist.strings in Resources */,
+				C73D56A719A1028400A2CFB6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C73D56AA19A1028400A2CFB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C73D56B819A1028400A2CFB6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C73D568D19A1028400A2CFB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C73D56A519A1028400A2CFB6 /* RDSAppDelegate.m in Sources */,
+				C73D56A119A1028400A2CFB6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C73D56A819A1028400A2CFB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C73D56BA19A1028400A2CFB6 /* RuterDataServiceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C73D56B219A1028400A2CFB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C73D569019A1028400A2CFB6 /* RuterDataService */;
+			targetProxy = C73D56B119A1028400A2CFB6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C73D569D19A1028400A2CFB6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C73D569E19A1028400A2CFB6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C73D56B619A1028400A2CFB6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C73D56B719A1028400A2CFB6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C73D56BB19A1028400A2CFB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C73D56BC19A1028400A2CFB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C73D56BE19A1028400A2CFB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RuterDataService/RuterDataService-Prefix.pch";
+				INFOPLIST_FILE = "RuterDataService/RuterDataService-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C73D56BF19A1028400A2CFB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RuterDataService/RuterDataService-Prefix.pch";
+				INFOPLIST_FILE = "RuterDataService/RuterDataService-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C73D56C119A1028400A2CFB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RuterDataService.app/RuterDataService";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RuterDataService/RuterDataService-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RuterDataServiceTests/RuterDataServiceTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C73D56C219A1028400A2CFB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RuterDataService.app/RuterDataService";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RuterDataService/RuterDataService-Prefix.pch";
+				INFOPLIST_FILE = "RuterDataServiceTests/RuterDataServiceTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C73D568C19A1028400A2CFB6 /* Build configuration list for PBXProject "RuterDataService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C73D56BB19A1028400A2CFB6 /* Debug */,
+				C73D56BC19A1028400A2CFB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C73D56BD19A1028400A2CFB6 /* Build configuration list for PBXNativeTarget "RuterDataService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C73D56BE19A1028400A2CFB6 /* Debug */,
+				C73D56BF19A1028400A2CFB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C73D56C019A1028400A2CFB6 /* Build configuration list for PBXNativeTarget "RuterDataServiceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C73D56C119A1028400A2CFB6 /* Debug */,
+				C73D56C219A1028400A2CFB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C73D568919A1028400A2CFB6 /* Project object */;
+}
